@@ -1,8 +1,8 @@
 import requests
 from datetime import datetime, timezone
 
-NOTION_TOKEN = "secret_ziqnCdezB6z0TfvezDEjeQCKzx3jnKmzGggdEqqpP1S"
-DATABASE_ID = "a827bd8f8ed7448a943d0dbbf14b8aad"
+NOTION_TOKEN = ""
+DATABASE_ID = ""
 
 headers = {
     "Authorization": "Bearer " + NOTION_TOKEN,
