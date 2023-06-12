@@ -4,20 +4,34 @@ NotionChat is a token gated LLM powered chatbot that allows you to query any Not
 
 ## Setup
 
+You’ll first need to create your notion integration token, connect it to a database that you want to query, and then save your token and database ID to use with the app. Full instructions from Notion can be found here:
+
+[Create an integration (notion.com)](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration)
+
 To run this project, install it locally using yarn for the frontend and pip for the API:
 
+Clone the repository
+
 ```
-# Clone the repository
 $ git clone <https://github.com/username/NotionChat.git>
+```
 
-# Navigate to the repository
+Navigate to the repository
+
+```
 $ cd Notion-Chat-main
+```
 
-# Install the frontend dependencies
+Install the frontend dependencies
+
+```
 $ cd frontend
 $ yarn
+```
 
-# Install the API dependencies
+Install the API dependencies
+
+```
 $ cd ../api
 $ pip install -r requirements.txt
 ```
